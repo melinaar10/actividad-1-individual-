@@ -25,6 +25,7 @@ El sistema calcula puntajes según la fórmula:
 - **-1** punto si el equipo tuvo errores graves
 
 ## 📂 Estructura del proyecto
+```
 ├── notebooks/
   └── entrega.ipynb # Notebook principal de ejecución
   └── src/
@@ -32,7 +33,8 @@ El sistema calcula puntajes según la fórmula:
     ├── puntajes.py 
     └── resultados.py 
   └──  README.md 
-  └── requirements.txt 
+  └── requirements.txt
+```
 
   ## EJECUCION Y INSTALACION DE DEPENDENCIAS
 
@@ -40,9 +42,9 @@ El sistema calcula puntajes según la fórmula:
    ```bash
    git clone <https://github.com/melinaar10/actividad-1-individual-.git>
    cd <actividad-1-individual>
-   
+
 2- Instalar dependencias:
 pip install -r requirements.txt
-
+```
 3- Ejecutar codigo:
 Instalar Jupyter Notebook para poder ejecutar el archivo .ipynb 
