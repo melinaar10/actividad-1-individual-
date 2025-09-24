@@ -4,7 +4,8 @@ Contiene funciones para calcular puntajes y determinar el mejor equipo de una ro
 
 
 def calcular_puntaje(datos_equipo: dict):
-    puntaje = datos_equipo['innovacion']*3 + datos_equipo['presentacion']*1 + ( -1 if datos_equipo['errores'] else 0)
+    puntaje = datos_equipo['innovacion']*3 + datos_equipo['presentacion']*1 
+    + ( -1 if datos_equipo['errores'] else 0)
     return puntaje
 
 #Entrada: diccionario acum con innovacion,presentacion,errores

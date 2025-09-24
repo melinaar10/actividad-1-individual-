@@ -32,3 +32,5 @@ def actualizar_acumulados(acum: dict, ronda: dict, mejor: str) -> dict:
         if ronda[equipo]["errores"]:
             acum[equipo]["errores"] += 1
             acum[equipo]["total"] -= 1
+
+#acum es un diccionario {nombre_equipo: acumulados entre todas las rondas}
