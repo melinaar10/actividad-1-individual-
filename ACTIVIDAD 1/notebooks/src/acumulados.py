@@ -9,8 +9,7 @@ def inicializar_acumulados(evaluaciones):
     equipos = evaluaciones[0].keys()
     acumulados = dict(map(lambda equipo: (equipo, resetear_valores()), equipos))    #map recorre la lista de equipos(nombres), lambda recibe el argumento del nombre del equipo,
     return acumulados                                                               #y con el diccionario reseteado por la función, crea una tupla ("Nombre Equipo",{"innovacion":0,"errores":0,...}), luego esa lista de tuplas es dict()
-
-                                                                                                                                              
+                                                                                                          
 def actualizar_acumulados(acum: dict, ronda: dict, mejor: str) -> dict: 
     for equipo in ronda:
         acum[equipo]["innovacion"] += ronda[equipo]["innovacion"]
